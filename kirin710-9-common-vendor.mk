@@ -6,9 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/huawei/kirin710-9-common
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/kirin710-9-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
-    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/xml/iaware_config_cust.bin:$(TARGET_COPY_OUT_VENDOR)/etc/xml/iaware_config_cust.bin \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/xml/uniperf_config_cust.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xml/uniperf_config_cust.xml \
     vendor/huawei/kirin710-9-common/proprietary/system/bin/tee_auth_daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/tee_auth_daemon \
@@ -564,7 +561,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.wifi.supplicant@2.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.wifi@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.wifi@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.wifi@1.1.so \
-    vendor/huawei/kirin710-9-common/proprietary/vendor/phone.prop:$(TARGET_COPY_OUT_VENDOR)/phone.prop
+    vendor/huawei/kirin710-9-common/proprietary/vendor/phone.prop:$(TARGET_COPY_OUT_VENDOR)/phone.prop \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so
 
 PRODUCT_PACKAGES += \
     libril \

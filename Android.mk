@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter potter,$(TARGET_DEVICE)),)
+ifneq ($(filter sydneyi,$(TARGET_DEVICE)),)
 
 endif
